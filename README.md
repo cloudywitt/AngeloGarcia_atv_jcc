@@ -1,2 +1,3 @@
 # AngeloGarcia_atv_jcc
-Assignment to count as the attendance during the JCC week
+
+Atividade para contar presença durante as aulas que não tivemos durante a JCC
