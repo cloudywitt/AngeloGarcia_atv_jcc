@@ -1,5 +1,5 @@
 Analysis & Synthesis report for xor_gate
-Thu Nov  2 18:47:51 2023
+Thu Nov  2 19:17:37 2023
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -42,7 +42,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Thu Nov  2 18:47:51 2023       ;
+; Analysis & Synthesis Status     ; Successful - Thu Nov  2 19:17:37 2023       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; xor_gate                                    ;
 ; Top-level Entity Name           ; xor_gate                                    ;
@@ -165,16 +165,16 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                    ;
-+----------------------------------+-----------------+-----------------+----------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                             ; Library ;
-+----------------------------------+-----------------+-----------------+----------------------------------------------------------+---------+
-; xor_gate.vhd                     ; yes             ; User VHDL File  ; /home/cloudywitt/Programming/VHDL/atividade/xor_gate.vhd ;         ;
-; or_gate.vhd                      ; yes             ; User VHDL File  ; /home/cloudywitt/Programming/VHDL/atividade/or_gate.vhd  ;         ;
-; and_gate.vhd                     ; yes             ; User VHDL File  ; /home/cloudywitt/Programming/VHDL/atividade/and_gate.vhd ;         ;
-; not_gate.vhd                     ; yes             ; User VHDL File  ; /home/cloudywitt/Programming/VHDL/atividade/not_gate.vhd ;         ;
-+----------------------------------+-----------------+-----------------+----------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                              ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                       ; Library ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------+---------+
+; xor_gate.vhd                     ; yes             ; User VHDL File  ; /home/cloudywitt/Programming/GitHub/AngeloGarcia_atv_jcc/01-porta-xor/xor_gate.vhd ;         ;
+; or_gate.vhd                      ; yes             ; User VHDL File  ; /home/cloudywitt/Programming/GitHub/AngeloGarcia_atv_jcc/01-porta-xor/or_gate.vhd  ;         ;
+; and_gate.vhd                     ; yes             ; User VHDL File  ; /home/cloudywitt/Programming/GitHub/AngeloGarcia_atv_jcc/01-porta-xor/and_gate.vhd ;         ;
+; not_gate.vhd                     ; yes             ; User VHDL File  ; /home/cloudywitt/Programming/GitHub/AngeloGarcia_atv_jcc/01-porta-xor/not_gate.vhd ;         ;
++----------------------------------+-----------------+-----------------+------------------------------------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------------+
@@ -260,26 +260,26 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Nov  2 18:47:42 2023
+    Info: Processing started: Thu Nov  2 19:17:29 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off xor_gate -c xor_gate
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file xor_gate.vhd
-    Info (12022): Found design unit 1: xor_gate-main File: /home/cloudywitt/Programming/VHDL/atividade/xor_gate.vhd Line: 11
-    Info (12023): Found entity 1: xor_gate File: /home/cloudywitt/Programming/VHDL/atividade/xor_gate.vhd Line: 4
+    Info (12022): Found design unit 1: xor_gate-main File: /home/cloudywitt/Programming/GitHub/AngeloGarcia_atv_jcc/01-porta-xor/xor_gate.vhd Line: 11
+    Info (12023): Found entity 1: xor_gate File: /home/cloudywitt/Programming/GitHub/AngeloGarcia_atv_jcc/01-porta-xor/xor_gate.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file or_gate.vhd
-    Info (12022): Found design unit 1: or_gate-main File: /home/cloudywitt/Programming/VHDL/atividade/or_gate.vhd Line: 11
-    Info (12023): Found entity 1: or_gate File: /home/cloudywitt/Programming/VHDL/atividade/or_gate.vhd Line: 4
+    Info (12022): Found design unit 1: or_gate-main File: /home/cloudywitt/Programming/GitHub/AngeloGarcia_atv_jcc/01-porta-xor/or_gate.vhd Line: 11
+    Info (12023): Found entity 1: or_gate File: /home/cloudywitt/Programming/GitHub/AngeloGarcia_atv_jcc/01-porta-xor/or_gate.vhd Line: 4
 Info (12021): Found 2 design units, including 1 entities, in source file and_gate.vhd
-    Info (12022): Found design unit 1: and_gate-main File: /home/cloudywitt/Programming/VHDL/atividade/and_gate.vhd Line: 14
-    Info (12023): Found entity 1: and_gate File: /home/cloudywitt/Programming/VHDL/atividade/and_gate.vhd Line: 6
+    Info (12022): Found design unit 1: and_gate-main File: /home/cloudywitt/Programming/GitHub/AngeloGarcia_atv_jcc/01-porta-xor/and_gate.vhd Line: 14
+    Info (12023): Found entity 1: and_gate File: /home/cloudywitt/Programming/GitHub/AngeloGarcia_atv_jcc/01-porta-xor/and_gate.vhd Line: 6
 Info (12021): Found 2 design units, including 1 entities, in source file not_gate.vhd
-    Info (12022): Found design unit 1: not_gate-main File: /home/cloudywitt/Programming/VHDL/atividade/not_gate.vhd Line: 14
-    Info (12023): Found entity 1: not_gate File: /home/cloudywitt/Programming/VHDL/atividade/not_gate.vhd Line: 6
+    Info (12022): Found design unit 1: not_gate-main File: /home/cloudywitt/Programming/GitHub/AngeloGarcia_atv_jcc/01-porta-xor/not_gate.vhd Line: 14
+    Info (12023): Found entity 1: not_gate File: /home/cloudywitt/Programming/GitHub/AngeloGarcia_atv_jcc/01-porta-xor/not_gate.vhd Line: 6
 Info (12127): Elaborating entity "xor_gate" for the top level hierarchy
-Info (12128): Elaborating entity "not_gate" for hierarchy "not_gate:not1" File: /home/cloudywitt/Programming/VHDL/atividade/xor_gate.vhd Line: 36
-Info (12128): Elaborating entity "and_gate" for hierarchy "and_gate:and1" File: /home/cloudywitt/Programming/VHDL/atividade/xor_gate.vhd Line: 46
-Info (12128): Elaborating entity "or_gate" for hierarchy "or_gate:or1" File: /home/cloudywitt/Programming/VHDL/atividade/xor_gate.vhd Line: 58
+Info (12128): Elaborating entity "not_gate" for hierarchy "not_gate:not1" File: /home/cloudywitt/Programming/GitHub/AngeloGarcia_atv_jcc/01-porta-xor/xor_gate.vhd Line: 36
+Info (12128): Elaborating entity "and_gate" for hierarchy "and_gate:and1" File: /home/cloudywitt/Programming/GitHub/AngeloGarcia_atv_jcc/01-porta-xor/xor_gate.vhd Line: 46
+Info (12128): Elaborating entity "or_gate" for hierarchy "or_gate:or1" File: /home/cloudywitt/Programming/GitHub/AngeloGarcia_atv_jcc/01-porta-xor/xor_gate.vhd Line: 58
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -288,9 +288,9 @@ Info (21057): Implemented 4 device resources after synthesis - the final resourc
     Info (21059): Implemented 1 output pins
     Info (21061): Implemented 1 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 1019 megabytes
-    Info: Processing ended: Thu Nov  2 18:47:51 2023
-    Info: Elapsed time: 00:00:09
+    Info: Peak virtual memory: 1014 megabytes
+    Info: Processing ended: Thu Nov  2 19:17:37 2023
+    Info: Elapsed time: 00:00:08
     Info: Total CPU time (on all processors): 00:00:21
 
 
