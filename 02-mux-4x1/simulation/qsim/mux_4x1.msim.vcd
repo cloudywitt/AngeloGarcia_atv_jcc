@@ -1,0 +1,290 @@
+$comment
+	File created using the following command:
+		vcd file mux_4x1.msim.vcd -direction
+$end
+$date
+	Fri Nov  3 09:47:10 2023
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module mux_4x1_vhd_vec_tst $end
+$var wire 1 ! A $end
+$var wire 1 " B $end
+$var wire 1 # C $end
+$var wire 1 $ D $end
+$var wire 1 % S0 $end
+$var wire 1 & S1 $end
+$var wire 1 ' Z $end
+
+$scope module i1 $end
+$var wire 1 ( gnd $end
+$var wire 1 ) vcc $end
+$var wire 1 * unknown $end
+$var wire 1 + devoe $end
+$var wire 1 , devclrn $end
+$var wire 1 - devpor $end
+$var wire 1 . ww_devoe $end
+$var wire 1 / ww_devclrn $end
+$var wire 1 0 ww_devpor $end
+$var wire 1 1 ww_A $end
+$var wire 1 2 ww_B $end
+$var wire 1 3 ww_C $end
+$var wire 1 4 ww_D $end
+$var wire 1 5 ww_S0 $end
+$var wire 1 6 ww_S1 $end
+$var wire 1 7 ww_Z $end
+$var wire 1 8 \Z~output_o\ $end
+$var wire 1 9 \A~input_o\ $end
+$var wire 1 : \B~input_o\ $end
+$var wire 1 ; \C~input_o\ $end
+$var wire 1 < \D~input_o\ $end
+$var wire 1 = \S0~input_o\ $end
+$var wire 1 > \S1~input_o\ $end
+$var wire 1 ? \mux3|O~0_combout\ $end
+$var wire 1 @ \ALT_INV_S1~input_o\ $end
+$var wire 1 A \ALT_INV_S0~input_o\ $end
+$var wire 1 B \ALT_INV_D~input_o\ $end
+$var wire 1 C \ALT_INV_C~input_o\ $end
+$var wire 1 D \ALT_INV_B~input_o\ $end
+$var wire 1 E \ALT_INV_A~input_o\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+0"
+0#
+0$
+0%
+0&
+1'
+0(
+1)
+x*
+1+
+1,
+1-
+1.
+1/
+10
+11
+02
+03
+04
+05
+06
+17
+18
+19
+0:
+0;
+0<
+0=
+0>
+1?
+1@
+1A
+1B
+1C
+1D
+0E
+$end
+#10000
+0!
+1"
+01
+12
+1:
+09
+1E
+0D
+0?
+08
+07
+0'
+#20000
+0"
+1#
+02
+13
+1;
+0:
+1D
+0C
+#30000
+0#
+1$
+03
+14
+1<
+0;
+1C
+0B
+#40000
+0$
+1!
+1%
+04
+11
+15
+1=
+19
+0<
+1B
+0E
+0A
+#50000
+0!
+1"
+01
+12
+1:
+09
+1E
+0D
+1?
+18
+17
+1'
+#60000
+0"
+1#
+02
+13
+1;
+0:
+1D
+0C
+0?
+08
+07
+0'
+#70000
+0#
+1$
+03
+14
+1<
+0;
+1C
+0B
+#80000
+0$
+1!
+0%
+1&
+04
+11
+05
+16
+1>
+0=
+19
+0<
+1B
+0E
+1A
+0@
+#90000
+0!
+1"
+01
+12
+1:
+09
+1E
+0D
+#100000
+0"
+1#
+02
+13
+1;
+0:
+1D
+0C
+1?
+18
+17
+1'
+#110000
+0#
+1$
+03
+14
+1<
+0;
+1C
+0B
+0?
+08
+07
+0'
+#120000
+0$
+1!
+1%
+04
+11
+15
+1=
+19
+0<
+1B
+0E
+0A
+#130000
+0!
+1"
+01
+12
+1:
+09
+1E
+0D
+#140000
+0"
+1#
+02
+13
+1;
+0:
+1D
+0C
+#150000
+0#
+1$
+03
+14
+1<
+0;
+1C
+0B
+1?
+18
+17
+1'
+#160000
+0$
+0%
+0&
+04
+05
+06
+0>
+0=
+0<
+1B
+1A
+1@
+0?
+08
+07
+0'
+#1000000
