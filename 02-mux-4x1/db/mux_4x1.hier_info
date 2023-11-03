@@ -1,0 +1,32 @@
+|mux_4x1
+A => mux_2x1:mux1.D0
+B => mux_2x1:mux1.D1
+C => mux_2x1:mux2.D0
+D => mux_2x1:mux2.D1
+S0 => mux_2x1:mux1.S
+S0 => mux_2x1:mux2.S
+S1 => mux_2x1:mux3.S
+Z <= mux_2x1:mux3.O
+
+
+|mux_4x1|mux_2x1:mux1
+D0 => O.DATAB
+D1 => O.DATAA
+S => O.OUTPUTSELECT
+O <= O.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux_4x1|mux_2x1:mux2
+D0 => O.DATAB
+D1 => O.DATAA
+S => O.OUTPUTSELECT
+O <= O.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mux_4x1|mux_2x1:mux3
+D0 => O.DATAB
+D1 => O.DATAA
+S => O.OUTPUTSELECT
+O <= O.DB_MAX_OUTPUT_PORT_TYPE
+
+
