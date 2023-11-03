@@ -2,6 +2,6 @@
 
 ![Imagem do Circuito](xor-circuit-image.png)
 
-# Simulação
+# Vídeo de simulação
 
-[Vídeo de Simulação](simulacao-porta-xor.mp4)
+https://drive.google.com/file/d/1wJ1BgGJQRrTnChxdxffiPzEFg-9QYW42/view?usp=sharing
